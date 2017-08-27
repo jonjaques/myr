@@ -1,8 +1,8 @@
 {
   "name": "myr",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Jon Jaques <jon@jonjaques.com>",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "Jon Jaques <jaquers@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -30,6 +30,8 @@
     "jest": "^20.0.4"
   },
   "scripts": {
+    "build": "webpack",
+    "dev": "webpack -w",
     "test": "eslint src && jest",
     "ci": "eslint src && jest --coverage && cat ./coverage/lcov.info | coveralls"
   }
