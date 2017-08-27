@@ -1,0 +1,7 @@
+coverage
+example
+src
+.babelrc
+.eslintrc.json
+.travis.yml
+webpackfile.js
