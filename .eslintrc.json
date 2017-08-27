@@ -1,0 +1,10 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": 0
+  },
+  "parser": "babel-eslint"
+}
