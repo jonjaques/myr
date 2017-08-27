@@ -1,4 +1,4 @@
 language: node_js
-script: ci
+script: yarn ci
 node_js:
   - 8
